@@ -1,0 +1,98 @@
+body {
+    background-color: #de1e7e;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form {
+    margin: 50px 0;
+    width: 300px;
+    padding: 30px 25px;
+    background: #ffcccb; /* розовый цвет */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1.login-title {
+    color: #333;
+    margin: 0 0 25px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: calc(100% - 22px);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-input:focus {
+    border-color: #6e8095;
+    outline: none;
+}
+
+.login-button,
+.register-button {
+    display: block; /* Сделать кнопки блочными элементами */
+    margin-bottom: 10px; /* Добавить отступ снизу для разделения кнопок */
+}
+
+.login-button {
+    color: #fff;
+    background: #1ede7e;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.link {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #55a1f;
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: center;
+    color: #888;
+}
+
+.login-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.password-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
